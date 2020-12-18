@@ -1,33 +1,60 @@
 body {
-    background-color: darkslategray;
+    background-color: #A13941FF;
+}
+
+section {
+    background-image: url(images/OIPX.jfif);
+    background-color: antiquewhite;
 }
 
 h1 {
-    background-color: ghostwhite;
+    background-color: #2A2B2DFF;
     text-align: center;
     width: 1000px;
     margin: 0 auto;
+    border: 5px solid black;
+    color: #2DA8D8FF;
+    padding: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: auto;
+    border-bottom: none;
 }
 
 h2 {
-    background-color: ghostwhite;
+    background-color: #2A2B2DFF;
     text-align: center;
     width: 1000px;
     margin: 0 auto;
+    border: 5px solid black;
+    color: #2DA8D8FF;
+    padding: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: auto;
+    border-top: none;
 }
 
 
 .stylename {
-    background-color: antiquewhite;
+    background-color: #2DA8D8FF;
+    float: right;
     font-size: 130%;
     border: 2px black;
     padding: 1px;
     width: 320px;
     padding: 10px;
     border: 5px solid black;
-    margin: 4px 4px 7px 4px ;
-    display: inline;
-    float: right;
+    overflow: auto;
+}
+
+.stylenamex {
+    background-color: #2DA8D8FF;
+    font-size: 130%;
+    border: 2px black;
+    padding: 1px;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid black;
+    overflow: auto;
 }
 
 div {
@@ -35,8 +62,11 @@ div {
 }
 
 #image1 {
-    border: 5px solid black;
-    padding: 1px
+    border: 4px solid black;
+    padding: 1px;
+    border-radius: 25px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
 }
 
 #image2 {
@@ -55,12 +85,14 @@ div {
 }
 
 #image5 {
+    vertical-align: text-top;
     border: 5px solid black;
     padding: 1px
 }
 
 .stylemode {
-    background-color: antiquewhite;
+    background-color: #2DA8D8FF;
+    float: left;
     font-size: 100%;
     border: 2px black;
     padding: 1px;
@@ -68,19 +100,18 @@ div {
     padding: 10px;
     border: 5px solid black;
     margin: 4px 4px 7px 4px;
-
 }
-    
-.stylemodus
 
-{
-    background-color: antiquewhite;
+.stylemodus {
+    background-color: #2DA8D8FF;
+    float: right;
     font-size: 100%;
     border: 2px black;
     padding: 1px;
     width: 320px;
     padding: 10px;
     border: 5px solid black;
+    margin: 4px 4px 7px 4px;
     text-align: center;
 }
 
@@ -88,7 +119,7 @@ h5 {
     margin: 0 auto;
     margin-left: auto;
     margin-right: auto;
-    background-color: antiquewhite;
+    background-color: #2DA8D8FF;
     font-size: 100%;
     border: 2px black;
     padding: 1px;
@@ -99,7 +130,7 @@ h5 {
 }
 
 p {
-    background-color: antiquewhite;
+    background-color: #2DA8D8FF;
     font-size: 130%;
     border: 2px black;
     padding: 1px;
@@ -110,7 +141,8 @@ p {
 }
 
 .stylename2 {
-    background-color: antiquewhite;
+    background-color: #2DA8D8FF;
+    float: left;
     font-size: 130%;
     border: 2px black;
     padding: 1px;
@@ -120,11 +152,24 @@ p {
     margin: 4px 4px 7px 4px;
     display: inline;
     text-align: center;
-    
+}
+
+.stylenamey {
+    background-color: #2DA8D8FF;
+    float: right;
+    font-size: 130%;
+    border: 2px black;
+    padding: 1px;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 4px 4px 7px 4px;
+    text-align: center;
 }
 
 .stylename3 {
-    background-color: antiquewhite;
+    background-color: #2DA8D8FF;
+    float: right;
     font-size: 130%;
     border: 2px black;
     padding: 1px;
@@ -134,7 +179,11 @@ p {
     margin: 4px 4px 7px 4px;
     display: inline;
     text-align: center;
-    float: left;
 }
 
 
+
+::selection {
+    color: red;
+    background-color: yellow;
+}
